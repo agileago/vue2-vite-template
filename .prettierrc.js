@@ -3,5 +3,6 @@ module.exports = {
   singleQuote: true,
   trailingComma: 'all',
   arrowParens: 'avoid',
+  vueIndentScriptAndStyle: false,
   plugins: [require('prettier-plugin-tailwindcss')],
 }

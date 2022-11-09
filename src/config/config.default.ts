@@ -1,6 +1,3 @@
-/**
- * 默认本地开发配置
- */
 export default class Config {
   env = import.meta.env.MODE
   // 基础路由 /app/
@@ -8,5 +5,5 @@ export default class Config {
   // 静态资源路径
   BASE_URL = import.meta.env.VUE_APP_BASE_URL
   // 后端API
-  API = import.meta.env.VUE_APP_BASE_ROUTE + 'api'
+  API_ABC = import.meta.env.VUE_APP_BASE_ROUTE + 'api/abc'
 }
